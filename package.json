@@ -1,0 +1,39 @@
+{
+  "name": "ele-react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --content-base . --history-api-fallback",
+    "bulid": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "iscroll": "^5.2.0",
+    "react": "^0.14.7",
+    "react-addons-css-transition-group": "^15.4.2",
+    "react-dd-menu": "^2.0.0",
+    "react-dom": "^0.14.7",
+    "react-dropdown": "^1.2.1",
+    "react-iscroll": "^1.1.1",
+    "react-router": "^2.0.0",
+    "react-waypoint": "^5.1.0",
+    "whatwg-fetch": "^2.0.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.5.1",
+    "babel-loader": "^6.2.2",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "fetch": "^1.1.0",
+    "http-server": "^0.8.5",
+    "immutable": "^3.8.1",
+    "iscroll": "^5.2.0",
+    "react-iscroll": "^1.1.1",
+    "react-swipe": "^5.0.6",
+    "react-swiper": "^0.1.5",
+    "webpack": "^1.12.13",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
